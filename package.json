@@ -8,9 +8,11 @@
   "private": true,
   "scripts": {
     "build": "checklist",
+    "deploy": "run-s build _firebase-deploy",
     "serve": "live-server dist/browser --middleware=../../../live-server-rewrite-middleware",
     "start": "run-p watch serve",
-    "watch": "nodemon --watch content --ext category,md --exec 'npm run build'"
+    "watch": "nodemon --watch content --ext category,md --exec 'npm run build'",
+    "_firebase-deploy": "firebase deploy"
   },
   "devDependencies": {
     "@marmicode/checklist-cli": "^0.2.2",
