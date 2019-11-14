@@ -1,0 +1,18 @@
+{
+  "title": "The Meta Checklist",
+  "subtitle": "A checklist built with @wishtack/checklist-cli",
+  "description": "This is a list of best practices on how to make a nice checklist",
+  "footerLinks": [
+    {
+      "icon": ["fab", "github"],
+      "href": "https://github.com/wishtack/checklist-cli",
+      "text": "GitHub"
+    }
+  ],
+  "about": [
+    "You can add as many paragraphs as you want",
+    "here",
+    "and here",
+    "..."
+  ]
+}

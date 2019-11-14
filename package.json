@@ -1,0 +1,21 @@
+{
+  "name": "@marmicode/checklist-template",
+  "version": "0.1.0",
+  "description": "Checklist Template",
+  "repository": "git@github.com:marmicode/checklist-template.git",
+  "author": "Younes <yjaaidi@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "checklist",
+    "serve": "live-server dist/browser --middleware=../../../live-server-rewrite-middleware",
+    "start": "run-p watch serve",
+    "watch": "nodemon --watch content --ext category,md --exec 'npm run build'"
+  },
+  "devDependencies": {
+    "@marmicode/checklist-cli": "^0.2.2",
+    "live-server": "^1.2.1",
+    "nodemon": "^1.19.4",
+    "npm-run-all": "^4.1.5"
+  }
+}
