@@ -1,18 +1,13 @@
 {
-  "title": "The Meta Checklist",
-  "subtitle": "A checklist built with @wishtack/checklist-cli",
-  "description": "This is a list of best practices on how to make a nice checklist",
+  "title": "The ReST API Checklist",
+  "subtitle": "A list of best practices to follow when building a ReST API",
+  "description": "ReST API checklist is a community built checklist that will help make intuitive, maintainable and secure ReST API",
   "footerLinks": [
     {
       "icon": ["fab", "github"],
-      "href": "https://github.com/wishtack/checklist-cli",
+      "href": "https://github.com/marmicode/rest-api-checklist",
       "text": "GitHub"
     }
   ],
-  "about": [
-    "You can add as many paragraphs as you want",
-    "here",
-    "and here",
-    "..."
-  ]
+  "about": []
 }
