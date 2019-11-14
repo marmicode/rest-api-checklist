@@ -1,5 +1,5 @@
 ---
-title: use RFC3339 and ISO8601 for date formatting with UTC timezone
+title: use RFC 3339 and ISO 8601 for date formatting with UTC timezone
 ---
 
 🚧 work in progress 🚧
@@ -8,5 +8,5 @@ title: use RFC3339 and ISO8601 for date formatting with UTC timezone
 
 # Resources
 
-- [RFC3339](https://tools.ietf.org/html/rfc3339)
-- [ISO8601](https://en.wikipedia.org/wiki/ISO_8601)
+- [RFC 3339](https://tools.ietf.org/html/rfc3339)
+- [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
